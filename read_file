@@ -1,0 +1,6 @@
+#!/bin/bash
+file_name='/home/abhishek/Documents/test7/name.txt'
+for content in $(cat $file_name)
+do
+echo name is $content
+done
